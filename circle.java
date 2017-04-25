@@ -17,7 +17,7 @@ public abstract class Circle extends Shape{
 		setRadius(startRadius);
 	}
 	
-	public setRadius(double newRadius){
+	public void setRadius(double newRadius){
 		if(newRadius < 0){
 			System.out.println("Radius cannot be negative");
 		}
