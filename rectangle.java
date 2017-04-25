@@ -1,7 +1,7 @@
 package subClass;
 import superClass.*;
 
-public abstract class Rectangle extends Shape{
+public class Rectangle extends Shape{
 	
 	private double width;
 	private double height;

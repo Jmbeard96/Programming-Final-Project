@@ -1,7 +1,7 @@
 package subClass;
 import superClass.*;
 
-public abstract class Circle extends Shape{
+public class Circle extends Shape{
 	
 	private double radius;
 	private double perimeter;
